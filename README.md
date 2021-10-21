@@ -28,3 +28,42 @@ We have tried to solve this problem using the following steps:
 
 ![stdscalar](Images/stdscalar.png)
 * This completes all the Data preparation activities
+
+### Step 2: Dimensionality Reduction
+* Performed dimensionality reduction using PCA
+* Dataset dimensions were further reduced with t-SNE
+
+![dimensionr](Images/dimensionr.png)
+* Using plotly scatter plot we tried to vizualize the clusters of data
+
+![tsne](Images/tsne.png)
+* Based on the scatter plot we can identified multiple clusters of cryptocurrency visible
+* This concludes of Dimensionality Reduction, where we reduced redudant data and maintaining data with variation
+
+### Step 3: Cluster Analysis using k-Means
+* We determined the `k` and `Inertia` values
+* The elbow curve was plotted to identify the best candidate for k
+
+![elbowcurve](Images/elbowcurve.png)
+* Based on the elbow curve i can see that at k = 6, the change has started to more consistant in nature
+* `k` = 6 will be used as value of k i.e. a total of 6 classes will be created
+* Following is the cluster data frame
+
+![cluster](Images/cluster.png)
+* Following is the scatter plot of the clusters based on `Algorithm` and `TotalCoinsMined` PCA values 
+
+![scatter](Images/scatter.png)
+* Finally created the 3D Scatter plot to show the various classes of Cryptocurrency
+
+![3dscatter](Images/3dscatter.png)
+* This completes our Cluster Analysis
+
+## Conclusion
+Based on the cluster Analysis, I reached at the following conclusion
+* The clustering would be beneficial for this example based on the data provided by the clients.
+* After using the concepts of Dimension Reduction and Cluster Analysis, an elbow curve was created to identify a valid "k" value for the cluster. I determined based on the Elbow curve, k = 6 (6 clusters) would be the most effective
+* Using PCA and t-SNE technicique for dimesnion reduction we were able to successfully identify the right amount of clusters
+* Based on the 3D Scatter plot, we can assume that 2 cryptocurrencies "Komodo" and "BitTorrent" can be excluded from the dataset to acheive a better cluster. They may potentially be incorrect data or out of scale
+
+
+
