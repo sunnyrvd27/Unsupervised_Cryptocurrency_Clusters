@@ -18,10 +18,13 @@ We have tried to solve this problem using the following steps:
 * Droped any row which had null values from the dataframe
 * Filtered on the cryptocurrency that had total coins mined greater than zero `TotalCoinsMined > 0`
 * Removed the columns `CoinName` and `IsTrading` columns
-![cleansed1t](Images/cleansed1t.png)
+
+![cleansed1](Images/cleansed1.png)
 * Used skLearn's `LabelEncoder` to create dummy variables/encodes for the `Algorithm` and `ProofType` columns
   * Used this approach instead of get_dummies() for simplification
+  
 ![labelencoder](Images/labelencoder.png)
 * Used skLearn's `StandardScalar` to standardize the data
+
 ![stdscalar](Images/stdscalar.png)
 * This completes all the Data preparation activities
