@@ -59,11 +59,11 @@ We have tried to solve this problem using the following steps:
 * This completes our Cluster Analysis
 
 ## Conclusion
-Based on the cluster Analysis, I reached at the following conclusion
+Based on the cluster Analysis, following conclusions can be made
 * The clustering would be beneficial for this example based on the data provided by the clients.
 * After using the concepts of Dimension Reduction and Cluster Analysis, an elbow curve was created to identify a valid "k" value for the cluster. I determined based on the Elbow curve, k = 6 (6 clusters) would be the most effective
 * Using PCA and t-SNE technicique for dimesnion reduction we were able to successfully identify the right amount of clusters
-* Based on the 3D Scatter plot, we can assume that 2 cryptocurrencies "Komodo" and "BitTorrent" can be excluded from the dataset to acheive a better cluster. They may potentially be incorrect data or out of scale
+* Based on the 3D Scatter plot, we can recommend that 2 cryptocurrencies "Komodo" and "BitTorrent" can be excluded from the dataset to acheive a better cluster. They may potentially be incorrect data or out of scale
 
 
 
